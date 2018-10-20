@@ -1,6 +1,8 @@
-var dieRoll = 0;
+let dieRoll = 0;
 
-function rollD6() {
+
+
+function rollDie() {
   dieRoll = Math.floor(Math.random() * 6 +1);
   alert(dieRoll);
 }

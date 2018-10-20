@@ -2,10 +2,25 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Die Roll - for use with your favorite tabletop RPG!</title>
   </head>
   <body>
-    <button type="button" name="roll_button" class="btn" id="roll_btn" onclick="rollD6()">Roll d6</button>
+    <div class="container">
+      <div class="die">
+        <h1 class="die-text">d4</h1>
+      </div>
+      <div class="die">
+        <h1 class="die-text">d6</h1>
+      </div>
+      <div class="die">
+        <h1 class="die-text">d8</h1>
+      </div>
+      <div class="die">
+        <h1 class="die-text">d12</h1>
+      </div>
+    </div>
+    <button type="button" name="roll_button" class="btn" id="roll_btn" onclick="rollDie()">Roll d6</button>
     <script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>
